@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web site</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+          <path d="M0,5 30,5" stroke="white"
+          stroke-width="5"/>
+          <path d="M0,14 30,14" stroke="white"
+          stroke-width="5"/>
+          <path d="M0,23 30,23" stroke="white"
+          stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+    <ul class="navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="skils.html">Personal Skills</a></li>
+    </ul>
+  </nav>
+  <div id="side-menu" class="side-nav">
+      <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="education.html">Education</a>
+      <a href="skils.html">Personal Skills</a>
+  </div>
+  <script>
+    function openSlideMenu() {
+      document.getElementById('side-menu').style.width='200px';
+      document.getElementById('main').style.marginLeft='200px';
+    }
+
+    function closeSlideMenu() {
+      document.getElementById('side-menu').style.width='0';
+      document.getElementById('main').style.marginLeft='0';
+    }
+  </script>
+
+  </nav>
+
+  </nav>
+<div class="pimg6">
+  <div class="ptext">
+    <span class="border">
+      An investment in knowledge pays the best interest
+
+    </span>
+  </div>
+</div>
+<section class="section section-dark">
+
+  <p class="p"> <b>Primary education: </b>OU. Rajko Zinzifov, Skopje (Republic of Macedonia)<br /> <b>2000–2001</b> <br />
+    OU. Kliment Ohridski, Prilep (Republic of Macedonia)<br />
+    <b>2001–2008</b><br />
+    <b>High school:</b> SOU. Riste RIsteski-RIcko, Prilep (Republic of Macedonia)<br />
+    -Electrical technician for computer science and automation<br />
+    -Graphics Designer <br />
+    <b>2008–2012</b><br />
+    <b>Computer science engineer:</b> FIKT- Faculty of information and communication technologies, Bitola (Republic of Macedonia)<br />
+    -Computer Graphics Designer<br />
+    -C , C++ , C# , SQL , HTML , CSS, JavaScript<br />
+    -Database Manipulation using SQL and Access<br />
+
+
+
+
+  </p>
+
+</section>
+
+
+<footer class="footer">
+  <div class="social" >
+    <a href="https://www.facebook.com/marjanco.matevski" target="_blank"><li><i class="fa fa-facebook" aria-hidden="true"></i></li></a>
+    <a href="https://twitter.com/CoekNaMesto" target="_blank"><li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+    <a href="https://plus.google.com/111894011443098865208" target="_blank"><li><i class="fa fa-google-plus" aria-hidden="true"></i></li></a>
+  </div>
+  © 2018 Macko Matevski
+</footer>
+
+
+</body>
+</html>
